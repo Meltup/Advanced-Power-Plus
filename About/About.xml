@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<modMetaData>
+	<name>Advanced Power Plus</name>
+	<author>sulusdacor, james76543, Meltup</author>
+    <supportedVersions>
+		<li>1.1</li>
+    </supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+	</modDependencies>
+	<packageId>sulusdacor.james76543.Meltup.AdvancedPowerPlus</packageId>
+	
+	<description>An advanced power for your colonies!
+	
+Adds new power generation buildings with technologies to research for them:
+	
+- Advanced wind turbine (Spacer tech, 6000 Wd output at max);
+- Advanced solar generator (Spacer tech, 3400 Wd output at max);
+- Advanced watermill generator (Spacer tech, 2300 Wd output);
+- Advanced geothermal generator (Spacer tech, 7500 Wd output);
+
+- Advanced stirling radioisotope generator (Industrial tech, 2500 Wd output for 0.06 Uranium per day);
+- Large advanced stirling radioisotope generator (Industrial tech, 9000 Wd output for 0.20 Uranium per day);
+- Advanced nuclear generator (Spacer tech, 26000 Wd output for 0.50 Uranium per day).
+
+Radioisotope and nuclear generators are compeletely safe thanks to technological advances, however they all require advanced components to be built.
+</description>
+</modMetaData>
