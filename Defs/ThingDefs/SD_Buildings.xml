@@ -108,7 +108,7 @@
 	<comps>
       <li Class="CompProperties_Power">
         <compClass>sd_adv_powergen.sd_adv_powergen_CompAdvPowerPlantSolar</compClass>
-        <basePowerConsumption>-1</basePowerConsumption>
+        <basePowerConsumption>-3400</basePowerConsumption>
         <transmitsPower>true</transmitsPower>
       </li>
 	  <li Class="CompProperties_Glower">
@@ -188,8 +188,7 @@
     <terrainAffordanceNeeded></terrainAffordanceNeeded> <!-- handled by the placeworker -->
     <designationCategory>Power</designationCategory>
     <placeWorkers>
-	   <!-- <li>PlaceWorker_WatermillGenerator</li>  works but has the same bugs -->
-        <li>sd_adv_powergen.PlaceWorker_AdvWatermillGenerator</li>
+      <li>PlaceWorker_WatermillGenerator</li>
     </placeWorkers>
     <building>
 		<ai_chillDestination>false</ai_chillDestination>
