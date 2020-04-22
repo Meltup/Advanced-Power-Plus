@@ -45,8 +45,8 @@
       </li>
       <li Class="CompProperties_Breakdownable"/>
 	  <li Class="CompProperties_Refuelable">
-        <fuelConsumptionRate>.06</fuelConsumptionRate>
-        <fuelCapacity>12</fuelCapacity>
+        <fuelConsumptionRate>0.125</fuelConsumptionRate>
+        <fuelCapacity>25</fuelCapacity>
         <fuelFilter>
           <thingDefs>
             <li>Uranium</li>
@@ -118,8 +118,8 @@
       </li>
       <li Class="CompProperties_Breakdownable"/>
 	  <li Class="CompProperties_Refuelable">
-        <fuelConsumptionRate>.20</fuelConsumptionRate>
-        <fuelCapacity>40</fuelCapacity>
+        <fuelConsumptionRate>0.40</fuelConsumptionRate>
+        <fuelCapacity>80</fuelCapacity>
         <fuelFilter>
           <thingDefs>
             <li>Uranium</li>
@@ -256,8 +256,8 @@
       </li>
       <li Class="CompProperties_Breakdownable"/>
 	  <li Class="CompProperties_Refuelable">
-        <fuelConsumptionRate>.5</fuelConsumptionRate>
-        <fuelCapacity>100</fuelCapacity>
+        <fuelConsumptionRate>1.0</fuelConsumptionRate>
+        <fuelCapacity>200</fuelCapacity>
         <fuelFilter>
           <thingDefs>
             <li>Uranium</li>
