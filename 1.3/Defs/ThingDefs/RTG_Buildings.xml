@@ -158,6 +158,7 @@
     <label>advanced geothermal generator</label>
 	<description>Produces electricity from geothermal steam geysers. Must be placed on a geyser.\n\nEnergy output: 7500 Wd</description>
     <thingClass>Building</thingClass>
+	<drawerType>MapMeshAndRealTime</drawerType>
     <graphicData>
 		<texPath>SD/adv_geothermal_generator</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
