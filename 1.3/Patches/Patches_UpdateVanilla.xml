@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- Change description to show how much energy each generator can produce  -->
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="WoodFiredGenerator"]/description</xpath>
+		<value>
+			<description>Produces power by consuming wood. Must be periodically loaded with wood fuel by hand.\n\nEnergy output: 1000 Wd</description>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="ChemfuelPoweredGenerator"]/description</xpath>
+		<value>
+			<description>Produces power by consuming chemfuel. Must be periodically refueled by hand.\n\nEnergy output: 1000 Wd</description>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="WindTurbine"]/description</xpath>
+		<value>
+			<description>A wind-powered electrical generator. Requires a large clear space in front and behind for optimal air flow.\n\nEnergy output: 3450 Wd at max</description>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="SolarGenerator"]/description</xpath>
+		<value>
+			<description>Produces electricity from sunlight. Does not work in the dark or under artificial light.\n\nEnergy output: 1700 Wd at max</description>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="GeothermalGenerator"]/description</xpath>
+		<value>
+			<description>Produces electricity from geothermal steam geysers. Must be placed on a steam geyser.\n\nEnergy output: 3600 Wd</description>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="WatermillGenerator"]/description</xpath>
+		<value>
+			<description>Produces electricity from a river. Must be placed with its wheel in moving water. If watermills are placed too close together, the turbulence they generate will interfere and reduce power generation.\n\nEnergy output: 1100 Wd</description>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="VanometricPowerCell"]/description</xpath>
+		<value>
+			<description>Generates free energy, forever, without using fuel. This technology is developed by archotech AIs, and is beyond even most glitterworld societies. While nobody knows exactly how it works, scholars believe it somehow extracts energy directly from fluctuations in the quantum foam.\n\nEnergy output: 1000 Wd</description>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="Ship_Reactor"]/description</xpath>
+		<value>
+			<description>Powers a ship on its journey between stars. Takeoff requires a long powerup process that is likely to attract raiders.\n\nDormant energy output: 1000 Wd</description>
+		</value>
+	</Operation>
+	
+</Patch>			

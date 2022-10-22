@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ERP5L+kI9QNAMI8W1L1Dz+ekKZ81kWgmFp0T35n/cL0wWtqGBA89cqAFJZWizNYWcXeJsoVoCYA7w3eXYpHHkw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\migue\\OneDrive\\Documents\\Github\\Advanced-Power-Plus\\Sources\\sd_adv_powergen.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\migue\\.nuget\\packages\\krafs.rimworld.ref\\1.4.3524\\krafs.rimworld.ref.1.4.3524.nupkg.sha512",
+    "C:\\Users\\migue\\.nuget\\packages\\lib.harmony\\2.2.2\\lib.harmony.2.2.2.nupkg.sha512"
+  ],
+  "logs": []
+}

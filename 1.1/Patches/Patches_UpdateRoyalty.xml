@@ -1,0 +1,22 @@
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Royalty</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+		<success>Always</success>
+		    <operations>
+			
+			    <li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="UnstablePowerCell"]/description</xpath>
+					<value>
+						<description>A mechanoid power generation unit. The vanometric power core will run forever, extracting energy from quantum foam fluctuations.\n\nAn internal amplifier system makes it unstable. If damaged, the unit will generate a massive explosion.\n\nSome brave humans steal these from mechanoids for their own use as power plants or defensive bombs. However, an unintentional detonation can be devastating.\n\nEnergy output: 400 Wd</description>
+					</value>
+				</li>
+                
+	        </operations>
+        </match>
+    </Operation>
+	
+</Patch>
