@@ -1,0 +1,6 @@
+C:\Users\migue\OneDrive\Documents\Github\Advanced-Power-Plus\Sources\obj\Debug\sd_adv_powergen.csproj.AssemblyReference.cache
+C:\Users\migue\OneDrive\Documents\Github\Advanced-Power-Plus\Sources\obj\Debug\sd_adv_powergen.csproj.CoreCompileInputs.cache
+C:\Users\migue\OneDrive\Documents\Github\Advanced-Power-Plus\Sources\bin\sd_adv_powergen.dll
+C:\Users\migue\OneDrive\Documents\Github\Advanced-Power-Plus\Sources\bin\0Harmony.dll
+C:\Users\migue\OneDrive\Documents\Github\Advanced-Power-Plus\Sources\obj\Debug\sd_adv_powergen.csproj.CopyComplete
+C:\Users\migue\OneDrive\Documents\Github\Advanced-Power-Plus\Sources\obj\Debug\sd_adv_powergen.dll

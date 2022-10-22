@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\migue\\OneDrive\\Documents\\Github\\Advanced-Power-Plus\\Sources\\sd_adv_powergen.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\migue\\OneDrive\\Documents\\Github\\Advanced-Power-Plus\\Sources\\sd_adv_powergen.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\migue\\OneDrive\\Documents\\Github\\Advanced-Power-Plus\\Sources\\sd_adv_powergen.csproj",
+        "projectName": "sd_adv_powergen",
+        "projectPath": "C:\\Users\\migue\\OneDrive\\Documents\\Github\\Advanced-Power-Plus\\Sources\\sd_adv_powergen.csproj",
+        "packagesPath": "C:\\Users\\migue\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\migue\\OneDrive\\Documents\\Github\\Advanced-Power-Plus\\Sources\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\migue\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "Krafs.Rimworld.Ref": {
+              "target": "Package",
+              "version": "[1.4.3524, )"
+            },
+            "Lib.Harmony": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
