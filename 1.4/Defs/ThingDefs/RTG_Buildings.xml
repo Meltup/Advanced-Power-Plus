@@ -6,7 +6,7 @@
   <ThingDef ParentName="BuildingBase">
     <defName>ASRG</defName>
     <label>advanced stirling radioisotope generator</label>
-	<description>Produces 2500 Wd using refuellable uranium heat source attached to an advanced stirling engine. Will slowly heat up rooms it is placed in.</description>
+	<description>Produces electricity using refuellable uranium heat source attached to an advanced stirling engine. Will slowly heat up rooms it is placed in.</description>  <!-- \n\nEnergy output: 2500 Wd -->  
     <thingClass>Building</thingClass>
 	<graphicData>
       <texPath>RTG/fueled_medium_asrg</texPath>
@@ -64,6 +64,7 @@
 	<rotatable>false</rotatable>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
     <designationCategory>Power</designationCategory>
+	<uiOrder>2100</uiOrder>
 	<building>
 	  <ai_chillDestination>false</ai_chillDestination>
       <soundAmbient>GeothermalPlant_Ambience</soundAmbient>
@@ -80,7 +81,7 @@
    <ThingDef ParentName="BuildingBase">
     <defName>large_ASRG</defName>
     <label>large advanced stirling radioisotope generator</label>
-	<description>Produces 9000 Wd using refuellable uranium heat source attached to an advanced stirling engine. Will heat up rooms twice as much as smaller version.</description>
+	<description>Produces electricity using refuellable uranium heat source attached to an advanced stirling engine. Will heat up rooms twice as much as smaller version.</description>  <!-- \n\nEnergy output: 7500 Wd -->
     <thingClass>Building</thingClass>
     <graphicData>
 		<texPath>RTG/fueled_large_asrg</texPath>
@@ -142,6 +143,7 @@
     <rotatable>false</rotatable>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <designationCategory>Power</designationCategory>
+	<uiOrder>2100</uiOrder>
     <building>
       <soundAmbient>GeothermalPlant_Ambience</soundAmbient>
 	  <ai_chillDestination>false</ai_chillDestination>
@@ -156,7 +158,7 @@
    <ThingDef ParentName="BuildingBase">
     <defName>sd_adv_powergen_adv_geothermal_generator</defName>
     <label>advanced geothermal generator</label>
-	<description>Produces electricity from geothermal steam geysers. Must be placed on a geyser.\n\nEnergy output: 7500 Wd</description>
+	<description>Produces electricity from geothermal steam geysers. Must be placed on a geyser.</description> <!-- \n\nEnergy output: 7500 Wd -->
     <thingClass>Building</thingClass>
 	<drawerType>MapMeshAndRealTime</drawerType>
     <graphicData>
@@ -202,6 +204,7 @@
     <rotatable>false</rotatable>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <designationCategory>Power</designationCategory>
+	<uiOrder>2100</uiOrder>
     <placeWorkers>
       <li>PlaceWorker_OnSteamGeyser</li>
     </placeWorkers>
@@ -241,7 +244,7 @@
 			<Beauty>-50</Beauty>
     </statBases>
     <tickerType>Normal</tickerType>
-    <description>Produces electricity using an advanced stirling engine with refuellable uranium as the heat source. Plasteel is used as a rudimentary neutron reflector to superheat the fuel cask, improving power output and efficiency of the generator.\n\nEnergy Output: 26000 Wd</description>
+    <description>Produces electricity using an advanced stirling engine with refuellable uranium as the heat source. Plasteel is used as a rudimentary neutron reflector to superheat the fuel cask, improving power output and efficiency of the generator.</description> <!-- \n\nEnergy output: 26000 Wd -->
     <size>(6,6)</size>
 	<selectable>true</selectable>
     <costList>
@@ -282,6 +285,7 @@
     <rotatable>false</rotatable>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <designationCategory>Power</designationCategory>
+	<uiOrder>2100</uiOrder>
     <building>
 	  <ai_chillDestination>false</ai_chillDestination>
       <soundAmbient>GeothermalPlant_Ambience</soundAmbient>

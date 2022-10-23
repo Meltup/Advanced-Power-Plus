@@ -6,7 +6,7 @@
 <ThingDef ParentName="BuildingBase">
     <defName>sd_adv_powergen_adv_wind_turbine</defName>
     <label>advanced wind turbine</label>
-	<description>A wind-powered electrical generator. Requires a large clear space in front and behind for optimal air flow.\n\nEnergy output: 6000 Wd at max</description>
+	<description>A wind-powered electrical generator. Requires a large clear space in front and behind for optimal air flow.</description> <!-- \n\nEnergy output: 6000 Wd at max -->
 	<thingClass>Building</thingClass>
     <drawerType>MapMeshAndRealTime</drawerType>
     <graphicData>
@@ -20,6 +20,7 @@
         <rect>(2,0.15,1,1.4)</rect>
       </damageData>
     </graphicData>
+	<uiIconPath>SD/advanced_wind_turbine_icon</uiIconPath>
     <altitudeLayer>Building</altitudeLayer>
     <passability>Impassable</passability>
        <blockWind>true</blockWind>
@@ -36,6 +37,7 @@
 		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
 	<rotatable>true</rotatable>
 	<designationCategory>Power</designationCategory>
+	<uiOrder>2100</uiOrder>
 	<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 	<building>
 	  <allowAutoroof>false</allowAutoroof>
@@ -74,7 +76,7 @@
   <ThingDef ParentName="BuildingBase">
     <defName>sd_adv_powergen_adv_solar_generator</defName>
     <label>advanced solar generator</label>
-	<description>Produces electricity from sunlight. Does not work in the dark.\n\nEnergy output: 3400 Wd at max</description>
+	<description>Produces electricity from sunlight. Does not work in the dark.</description> <!-- \n\nEnergy output: 3400 Wd at max -->
 	<thingClass>Building</thingClass>
     <drawerType>MapMeshAndRealTime</drawerType>
     <graphicData>
@@ -114,11 +116,11 @@
 	  <ComponentSpacer>2</ComponentSpacer>
     </costList>
 	<comps>
-		<li Class="CompProperties_Power">
-			<compClass>sd_adv_powergen.sd_adv_powergen_CompAdvPowerPlantSolar</compClass>
-			<basePowerConsumption>-1</basePowerConsumption>
-			<transmitsPower>true</transmitsPower>
-		</li>
+      <li Class="CompProperties_Power">
+        <compClass>sd_adv_powergen.sd_adv_powergen_CompAdvPowerPlantSolar</compClass>
+		<basePowerConsumption>-1</basePowerConsumption>
+		<transmitsPower>true</transmitsPower>
+      </li>
 	  <li Class="CompProperties_Glower">
         <glowRadius>5</glowRadius>
         <glowColor>(1,213,238,0)</glowColor>
@@ -127,6 +129,7 @@
     </comps>
 	<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
     <designationCategory>Power</designationCategory>
+	<uiOrder>2100</uiOrder>
     <constructEffect>ConstructMetal</constructEffect>
     <researchPrerequisites>
       <li>advanced_naturalfuel_solar_panels</li>
@@ -141,7 +144,7 @@
   <ThingDef ParentName="BuildingBase">
     <defName>sd_adv_powergen_WatermillGenerator</defName>
     <label>advanced watermill generator</label>
-    <description>Produces electricity from a river. Must be placed with its wheel in moving water. If watermills are placed too close together, the turbulence they generate will interfere and reduce power generation.\n\nEnergy output: 2300 Wd</description>
+    <description>Produces electricity from a river. Must be placed with its wheel in moving water. If watermills are placed too close together, the turbulence they generate will interfere and reduce power generation.</description> <!-- \n\nEnergy output: 2300 Wd -->
 	<thingClass>Building</thingClass>
     <drawerType>MapMeshAndRealTime</drawerType>
     <graphicData>
@@ -197,6 +200,7 @@
     <rotatable>true</rotatable>
     <terrainAffordanceNeeded></terrainAffordanceNeeded> <!-- handled by the placeworker -->
     <designationCategory>Power</designationCategory>
+	<uiOrder>2100</uiOrder>
     <placeWorkers>
       <li>PlaceWorker_WatermillGenerator</li>
     </placeWorkers>
