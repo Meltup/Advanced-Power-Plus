@@ -65,11 +65,14 @@ namespace sd_adv_powergen
             GenDraw.DrawFillableBar(r);
         }
 
-        private const float FullSunPower = 3400f;
+        private float FullSunPower
+        {
+            get
+            {
+                return this.Props.PowerConsumption == -1f ? 3400f : -this.Props.PowerConsumption;
+            }
+        }
 
-        private const float NightPower = 0f;
-
-       
     }
 
     [DefOf]
