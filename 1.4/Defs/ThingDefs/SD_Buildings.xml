@@ -118,7 +118,7 @@
 	<comps>
       <li Class="CompProperties_Power">
         <compClass>sd_adv_powergen.sd_adv_powergen_CompAdvPowerPlantSolar</compClass>
-		<basePowerConsumption>-1</basePowerConsumption>
+		<basePowerConsumption>-3400</basePowerConsumption>
 		<transmitsPower>true</transmitsPower>
       </li>
 	  <li Class="CompProperties_Glower">
