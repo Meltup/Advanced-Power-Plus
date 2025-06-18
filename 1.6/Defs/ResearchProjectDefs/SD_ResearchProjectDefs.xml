@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+ 
+  <ResearchProjectDef>
+    <defName>advanced_naturalfuel_wind_turbine</defName>
+    <label>advanced wind turbine</label>
+    <description>Build advanced wind turbines for higher electrical generation.</description>
+    <baseCost>1600</baseCost>
+	<techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>Electricity</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+	<researchViewX>1</researchViewX>
+	<researchViewY>4</researchViewY>
+	<tab>AdvancedPower_ResearchTab</tab>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>advanced_naturalfuel_solar_panels</defName>
+    <label>advanced solar power</label>
+    <description>Build advanced solar panels for higher electrical generation.</description>
+    <baseCost>1800</baseCost>
+	<techLevel>Spacer</techLevel>
+    <prerequisites>
+	  <li>SolarPanels</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+	<researchViewX>0</researchViewX>
+	<researchViewY>4</researchViewY>
+	<tab>AdvancedPower_ResearchTab</tab>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>advanced_nofuel_watermill</defName>
+    <label>adv. watermill generator</label>
+    <description>Build advanced watermill generators on rivers to generate a steady supply of higher power.</description>
+    <baseCost>2100</baseCost>
+	<techLevel>Spacer</techLevel>
+    <prerequisites>
+	  <li>WatermillGenerator</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+	<researchViewX>0</researchViewX>
+	<researchViewY>3</researchViewY>
+	<tab>AdvancedPower_ResearchTab</tab>
+  </ResearchProjectDef>
+
+</Defs>
